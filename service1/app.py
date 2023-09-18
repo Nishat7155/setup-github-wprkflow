@@ -13,7 +13,7 @@ metrics.info('app_info', ' Service 1', version = '1.0.0')
 )
 @app.route("/")
 def main():
-    return "Hello, World!"
+    return "Hello, World everyone!"
 
 
 app.run(host="0.0.0.0", port=5001, debug=False)
